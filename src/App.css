@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+.marginTop{
+  margin-top: 15vw;
+}
+
+.marginLeft{
+  margin-left: 10vw;
+  clear:both;
+  display: table;
+  content: "";
+}
+
+.square{
+  margin-top: -3px;
+  margin-right: -1px;
+  border-radius: 5px;
+  height: 7vw;
+  width: 7vw;
+  font-size: 25px;
+  border: 1px solid black;
+  line-height: 25px;
+}
+
+.square:active{
+  background-color: lightgreen;
+}
+
+.status{
+  margin: 80px;
+  margin-left: 150px;
+  /* background-color: aqua; */
+  width: 20vw;
+  height: 20vh;
+  text-align: center;
+  padding: 3%;
+  font-size: 40px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.display{
+  /* background-color: blueviolet; */
+  display: flex;
+  height: 50vh;
+  margin-top: 15vw ;
+  padding: 30px;
+}
+
+.board{
+  /* background-color: grey; */
+  width: 21vw;
+  height: 20vw;
+  /* padding: 1%; */
+  
+}
+
+.reset{
+  margin-top: 15vh;
+}
